@@ -1,5 +1,3 @@
-# Python Tutorial
-
 # Python basic:
 
 ## Python Comments:
