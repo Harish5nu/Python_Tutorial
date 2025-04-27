@@ -66,3 +66,96 @@
     A = "Sally"
     #A will not overwrite a
     ```
+    
+6. Variable Names
+    
+    ```python
+    # Legal variable names:
+    myvar = "John"
+    my_var = "John"
+    _my_var = "John"
+    myVar = "John"
+    MYVAR = "John"
+    myvar2 = "John"
+    
+    # Ilegal variable names:
+    2myvar = "John"
+    my-var = "John"
+    my var = "John"
+    ```
+    
+7. **Multi Words Variable Names**
+    
+    ```python
+    # Camel Case
+    # Each word, except the first, starts with a capital letter:
+    myVariableName = "John"
+    
+    # Pascal Case
+    # Each word starts with a capital letter:
+    MyVariableName = "John"
+    
+    # Snake Case
+    # Each word is separated by an underscore character:
+    my_variable_name = "John"
+    ```
+    
+8. Assign Multiple Values
+    
+    ```python
+    # Many Values to Multiple Variables
+    x, y, z = "Orange", "Banana", "Cherry"
+    print(x)
+    print(y)
+    print(z)
+    
+    # One Value to Multiple Variables
+    x = y = z = "Orange"
+    print(x)
+    print(y)
+    print(z)
+    
+    # Unpack a Collection
+    fruits = ["apple", "banana", "cherry"]
+    x, y, z = fruits
+    print(x)
+    print(y)
+    print(z)
+    ```
+    
+9. Output Variables
+    
+    ```python
+    x = "Python"
+    y = "is"
+    z = "awesome"
+    print(x, y, z) # you output multiple variables, separated by a comma
+    print(x + y + z) # also use the + operator to output multiple variables
+    
+    ```
+    
+10. Global Variables
+    
+    ```python
+    # Without using global variable
+    x = "awesome"
+    
+    def myfunc():
+      x = "fantastic"
+      print("Python is " + x)
+    
+    myfunc()
+    
+    print("Python is " + x)
+    
+    # Using Global Variable
+    x = "awesome"
+    
+    def myfunc():
+      global x
+      x = "fantastic"
+    
+    myfunc()
+    
+    print("Python is " + x)
+    ```
