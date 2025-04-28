@@ -129,8 +129,8 @@
     x = "Python"
     y = "is"
     z = "awesome"
-    print(x, y, z) # you output multiple variables, separated by a comma
-    print(x + y + z) # also use the + operator to output multiple variables
+    print(x, y, z) # you output multiple variables, Separated by a comma
+    print(x + y + z) # also use the + operator to output Multiple variables
     
     ```
     
