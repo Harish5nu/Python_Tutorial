@@ -28,8 +28,8 @@
 1. Creating Variables
     
     ```python
-    x = 5 # x is of type int
-    y = "John" # y is of type str
+    x = 5 # x is of Type Int
+    y = "John" # y is of type Str
     print(x) 
     print(y)
     ```
