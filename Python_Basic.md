@@ -149,11 +149,11 @@
     print("Python is " + x)
     
     # Using Global Variable
-    x = "awesome"
+    x = "Awesome"
     
     def myfunc():
       global x
-      x = "fantastic"
+      x = "Fantastic"
     
     myfunc()
     
